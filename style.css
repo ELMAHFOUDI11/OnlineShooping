@@ -1,0 +1,28 @@
+.M2 h1
+{
+  color: #E7C6FF;
+  font-family: cursive;
+  font-size: 65px;
+}
+h2
+{
+  font-size: 45px; 
+  letter-spacing: 5px; 
+}
+.S1
+{
+  color: rgb(260, 0, 200);
+}
+.M2
+{
+  height: 100px;
+  background: #162736;
+}
+.x
+{
+  height: 600px;
+  width: 600px;
+  border: 5px #8804e6;
+  background-image: url("images/LOGO\ OS.png");
+  background-size: 600px 600px;
+}
