@@ -1,28 +1,65 @@
-.M2 h1
+ body
+ {
+  background: linear-gradient(to top, #B198FC, #42A1DC, #00376B);
+ }
+ h1
 {
   color: #E7C6FF;
   font-family: cursive;
   font-size: 65px;
+  text-align: center;
 }
 h2
 {
   font-size: 45px; 
-  letter-spacing: 5px; 
+  letter-spacing: 5px;
+  font-family: cursive; 
+  color: #fb8b71;
 }
 .S1
 {
-  color: rgb(260, 0, 200);
+  color: #a524fb;
+  font-size: 50px;
 }
-.M2
+
+
+nav a
 {
-  height: 100px;
-  background: #162736;
+  display: inline;
+  margin-left: 10px;
+  width: 5%;
+  height: 100%;
+  font-size: 20px;
+  color: #E7C6FF;
+  line-height: 35px;
+  padding-left: 10px;
+  text-decoration: none;
+  
+  transition: 1s ease;
 }
-.x
+nav a:hover
 {
-  height: 600px;
-  width: 600px;
-  border: 5px #8804e6;
-  background-image: url("images/LOGO\ OS.png");
-  background-size: 600px 600px;
+  padding-right: 10px;
+  transition: 1s ease;
+  color: #F89CA3;
 }
+* 
+{
+  text-align: center;
+}
+@media (max-width: 500px) 
+{
+  h1{font-size: 60px;}
+  h2{font-size: 60px;}
+  .S1{font-size: 70px;}
+  nav a{font-size: 15px;}
+}
+@media (max-width: 390px) 
+{
+  h1 { font-size: 45px; }
+  nav a { font-size: 10px; }
+  .S1 { font-size: 48px; }
+  
+  nav a:hover{padding-right: 5px;}
+}
+
